@@ -256,6 +256,13 @@ img,svg{display:block;max-width:100%;}
 .hero-stats.reveal-line{animation-delay:.94s;display:flex;gap:36px;margin-top:1em;}
 .hero-stats strong{display:block;font-family:var(--font-head);font-size:1.6rem;font-weight:800;color:var(--primary);}
 .hero-stats span{font-size:.82rem;color:var(--ink-soft);}
+.hero-disclaimer{
+  font-size:.76rem;
+  color:var(--ink-soft);
+  opacity:.75;
+  max-width:520px;
+  margin-top:.6em;
+}
 @keyframes lineUp{to{opacity:1;transform:translateY(0);}}
 
 .hero-art{position:relative;display:flex;justify-content:center;}
